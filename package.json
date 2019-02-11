@@ -35,6 +35,6 @@
     "gulp-clean": "^0.4.0",
     "gulp-concat": "^2.6.1",
     "gulp-uglify": "^3.0.1",
-    "react-ts-di": "^1.2.1"
+    "react-ts-di": "^1.2.2"
   }
 }
