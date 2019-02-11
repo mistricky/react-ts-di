@@ -48,3 +48,6 @@ export class IDCard extends Component {
 ```
 
 see ` /example`
+
+## LISENCE
+MIT.
