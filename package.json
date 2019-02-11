@@ -1,0 +1,35 @@
+{
+  "name": "react-ts-di",
+  "version": "1.0.1",
+  "main": "./bld/di.js",
+  "license": "MIT",
+  "files": [
+    "bld"
+  ],
+  "dependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "7",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "reflect-metadata": "^0.1.13",
+    "ts-loader": "^5.3.3",
+    "tslib": "^1.9.3",
+    "typescript": "^3.3.3",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.2",
+    "@types/react-dom": "^16.8.0",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.1",
+    "react-ts-di": "^1.0.0"
+  }
+}
