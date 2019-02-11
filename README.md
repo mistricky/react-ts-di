@@ -19,18 +19,18 @@ npm insatll --save-dev react-ts-di
 
 **user.service.ts**
 
-````
+```javascript
 import { Injectable } from "react-ts-di";
 
 @Injectable()
 export class User {
   name: string = "Jon";
 }
-````
+```
 
 **id-card.tsx**
 
-```
+```javascript
 import { Component } from "react";
 import * as React from "react";
 import { Inject } from "react-ts-di";
