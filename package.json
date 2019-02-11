@@ -1,13 +1,12 @@
 {
   "name": "react-ts-di",
-  "version": "1.2.1",
-  "main": "./bld/di.js",
+  "version": "1.2.2",
+  "main": "./bld/index.js",
   "license": "MIT",
   "files": [
     "bld"
   ],
   "dependencies": {
-    "@babel/plugin-proposal-decorators": "^7.3.0",
     "awesome-typescript-loader": "^5.2.1",
     "babel-loader": "^8.0.5",
     "babel-preset-env": "^1.7.0",
@@ -25,6 +24,7 @@
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "@babel/plugin-proposal-class-properties": "^7.3.0",
+    "@babel/plugin-proposal-decorators": "^7.3.0",
     "@babel/preset-env": "^7.3.1",
     "@babel/preset-react": "^7.0.0",
     "@babel/register": "^7.0.0",
@@ -35,6 +35,6 @@
     "gulp-clean": "^0.4.0",
     "gulp-concat": "^2.6.1",
     "gulp-uglify": "^3.0.1",
-    "react-ts-di": "^1.1.1"
+    "react-ts-di": "^1.2.1"
   }
 }
