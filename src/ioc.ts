@@ -20,7 +20,7 @@ export function Injectable() {
 
     constructor.key = Symbol(constructor.name);
 
-    ClassPool.set(constructor.key, constructor);
+    ClassPool.set(constructor.key, new (constructor as InstanceType<any>)());
   };
 }
 
@@ -31,5 +31,5 @@ export function Inject(target: Object, key: string) {
     throw new Error("Please register for the service first.");
   }
 
-  target[key] = new (ClassPool.get(type.key) as typeof Function)();
+  target[key] = ClassPool.get(type.key);
 }
