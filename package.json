@@ -1,6 +1,6 @@
 {
   "name": "react-ts-di",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "main": "./bld/index.js",
   "license": "MIT",
   "files": [
