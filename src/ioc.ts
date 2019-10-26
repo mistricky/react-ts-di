@@ -25,10 +25,10 @@ export function Injectable() {
 }
 
 export function Inject(target: Object, key: string) {
-  var type: Constructor = Reflect.getMetadata("design:type", target, key);
+  const type: Constructor = Reflect.getMetadata("design:type", target, key);
 
   if (!ClassPool.has(type.key)) {
-    throw new Error("Please register for the service first.");
+    ClassPool.set(type.key, new (type as InstanceType<any>)())
   }
 
   target[key] = ClassPool.get(type.key);
