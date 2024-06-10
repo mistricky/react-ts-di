@@ -1,5 +1,5 @@
 # react-ts-di
-The DI library of TypeScript for react.
+The DI library for React written in TS.
 
 ## Install
 
